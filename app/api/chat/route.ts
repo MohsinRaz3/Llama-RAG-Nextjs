@@ -56,6 +56,7 @@ export async function POST(request: NextRequest) {
 
     const response = await chatEngine.chat(
       lastMessageContent as MessageContent,
+      //@ts-ignore
       messages,
       true,
     );
