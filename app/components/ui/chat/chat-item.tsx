@@ -2,7 +2,7 @@
 
 import ChatAvatar from "./chat-avatar";
 //@ts-ignore
-import { Message } from "./chat-messages";
+import { Message } from "./chat.interface";
 
 export default function ChatItem(message: Message) {
   return (
