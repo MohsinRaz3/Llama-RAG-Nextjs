@@ -1,6 +1,7 @@
 "use client";
 
 import ChatAvatar from "./chat-avatar";
+//@ts-ignore
 import { Message } from "./chat-messages";
 
 export default function ChatItem(message: Message) {
